@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>InnovateX 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .float {
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+  </style>
+</head>
+
+<body class="bg-black text-white">
+
+<!-- HERO -->
+<section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-purple-600 to-pink-600">
+  <h1 class="text-6xl font-extrabold mb-4 float">InnovateX 2026</h1>
+  <p class="text-xl">AI • Web • Hackathon • Innovation</p>
+
+  <button class="mt-8 px-8 py-3 bg-black rounded-full hover:bg-white hover:text-black transition">
+    Join Now
+  </button>
+</section>
+
+<!-- ABOUT -->
+<section class="p-10 max-w-5xl mx-auto">
+  <h2 class="text-3xl font-bold text-pink-500 mb-4">About Event</h2>
+  <p>
+    InnovateX 2026 is a technology-focused college event bringing together
+    students to collaborate, innovate, and compete in AI & Web domains.
+  </p>
+</section>
+
+<!-- TIMELINE -->
+<section class="p-10 max-w-5xl mx-auto">
+  <h2 class="text-3xl font-bold text-pink-500 mb-6">Timeline</h2>
+
+  <div class="grid md:grid-cols-4 gap-6">
+    <div class="card">Registration</div>
+    <div class="card">Tech Talks</div>
+    <div class="card">Hackathon</div>
+    <div class="card">Results</div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section class="p-10 max-w-5xl mx-auto">
+  <h2 class="text-3xl font-bold text-pink-500 mb-6">Highlights</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="highlight">AI Workshops</div>
+    <div class="highlight">24-Hour Coding</div>
+    <div class="highlight">Prize Pool</div>
+  </div>
+</section>
+
+<footer class="text-center p-6 text-gray-400">
+  © 2026 InnovateX | Designed by kush prajapati
+</footer>
+
+<style>
+  .card, .highlight {
+    border: 1px solid #ec4899;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    transition: 0.3s;
+  }
+  .card:hover, .highlight:hover {
+    background: #ec4899;
+    color: black;
+    transform: scale(1.05);
+  }
+</style>
+
+</body>
+</html>
